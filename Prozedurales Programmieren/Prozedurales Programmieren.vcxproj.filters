@@ -15,13 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HalloWelt.c">
+    <ClCompile Include="01_HalloWelt.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Rechenoperation.c">
+    <ClCompile Include="02_Rechenoperation.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Zaehlerspiel.c">
+    <ClCompile Include="04_switch.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="03_Zaehlerspiel.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
