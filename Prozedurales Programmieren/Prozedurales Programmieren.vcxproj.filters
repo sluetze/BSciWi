@@ -27,5 +27,8 @@
     <ClCompile Include="03_Zaehlerspiel.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="05_Skalarprodukt.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
