@@ -55,8 +55,6 @@ void output() {
 	}
 }
 
-//Sortieren
-
 int main(int argc, int *argv[])
 {
 	for (int i = 0; i < 5; i++) {
