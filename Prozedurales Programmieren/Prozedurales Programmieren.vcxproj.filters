@@ -30,5 +30,8 @@
     <ClCompile Include="05_Skalarprodukt.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="06_struct.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

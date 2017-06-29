@@ -7,7 +7,7 @@ int main(int argc, char *argv[]){
 	double dVariable1[n];
 	double dVariable2[n];
 	double dSum = 0;
-	double *vn
+	double *vn;
 
 	printf("Bitte geben Sie die Anzahl an Spaﬂ ein:\n");
 	scanf_s("%i", &vn);
