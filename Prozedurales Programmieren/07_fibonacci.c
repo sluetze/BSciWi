@@ -19,8 +19,9 @@ int main(int argc, char *argv[])
 	iterative_fibonacci(iInput);
 
 	printf("\n\n Nachfolgend die rekursive Ausfuehrung:\n");
-
-	for (int i = 0; i <= iInput; i++)
+	
+	int i;
+	for (i = 0; i <= iInput; i++)
 	{
 		printf(", %i", recurse_fibonacci(i));
 	}
@@ -32,7 +33,7 @@ int input() {
 	char cTest = 'c';
 
 	printf("Bitte geben sie das obere Limit f. Fibonacci ein:\n");
-	scanf_s("%119s", sInput, 120);
+	scanf("%119s", sInput, 120);
 
 	int iAnzahl = atoi(sInput);
 
@@ -53,7 +54,8 @@ void iterative_fibonacci(int iRuns) {
 	else
 	{
 		printf("%i, %i", iLower, iUpper);
-		for (int i = 2; i <= iRuns; i++) //die ersten beiden ELemente werden direkt im Printf oben drüber ausgegeben
+		int i;
+		for (i = 2; i <= iRuns; i++) //die ersten beiden ELemente werden direkt im Printf oben drüber ausgegeben
 			{
 			iResult = iLower + iUpper;
 				printf(", %i", iResult);
