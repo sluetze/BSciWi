@@ -60,5 +60,8 @@
     <ClCompile Include="arrays.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="bubblesort.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
