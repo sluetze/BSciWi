@@ -63,5 +63,8 @@
     <ClCompile Include="bubblesort.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="zweidim_arrays.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
