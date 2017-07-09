@@ -26,6 +26,7 @@ int main(int argc, char * argv[])
 	Getraenke_ausgeben();
 
 	printf("ENDE");
+	system("PAUSE");
 
 }
 

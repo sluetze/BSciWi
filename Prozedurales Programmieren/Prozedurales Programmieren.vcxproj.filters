@@ -51,5 +51,14 @@
     <ClCompile Include="looping.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="ggt.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="arrays.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
