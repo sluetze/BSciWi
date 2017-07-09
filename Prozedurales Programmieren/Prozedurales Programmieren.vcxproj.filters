@@ -66,5 +66,8 @@
     <ClCompile Include="zweidim_arrays.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="pointer_arrays.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
