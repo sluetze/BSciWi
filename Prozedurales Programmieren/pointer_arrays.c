@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define MAX_SIZE 10
 
 /* 06.07
 int main()
@@ -20,7 +21,7 @@ int main()
 }
 */
 
-/* 06.08 
+/* 06.08  */
 int berechneProdukt(int feld[], int laenge);
 
 int main()
@@ -50,15 +51,16 @@ int berechneProdukt(int feld[], int laenge)
 	
 	return produkt;
 }
-*/
+/* */
 
-/* 06.08b */
+/* 06.08b 
 int main()
 {
-	int iArray[11];
-	int iLaenge = 10;
+	int iArray[MAX_SIZE +1];
+	//int iArray[11];
+	int iLaenge = MAX_SIZE;
 	int i;
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < MAX_SIZE; i++)
 	{
 		printf("Bitte zahl %d/10 eingeben:\t", i + 1);
 		scanf_s("%d", &iArray[i]);
@@ -67,7 +69,7 @@ int main()
 	}
 	iArray[10] = 0;
 
-	printf("Das Produkt lautet:%i", berechneProdukt(iArray));
+	printf("Das Produkt lautet:%i\n", berechneProdukt(iArray));
 
 	system("PAUSE");
 }
@@ -83,3 +85,4 @@ int berechneProdukt(int feld[])
 
 	return produkt;
 }
+*/
