@@ -69,5 +69,11 @@
     <ClCompile Include="pointer_arrays.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="stringtoarray.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="spielfeld.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
