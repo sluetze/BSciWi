@@ -75,5 +75,8 @@
     <ClCompile Include="spielfeld.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="calloc.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
