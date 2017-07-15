@@ -78,5 +78,8 @@
     <ClCompile Include="calloc.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="0610.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
