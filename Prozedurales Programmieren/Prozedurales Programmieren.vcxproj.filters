@@ -81,5 +81,14 @@
     <ClCompile Include="0610.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="UE5_netto.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="loopiloop.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="0504.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
