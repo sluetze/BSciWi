@@ -13,6 +13,7 @@ small = True
 # Schleifenkopf und Schleifenkoerpert
 while (eingabe != geheimzahl) and (zaehler < maxversuche):
   #eingabe = int(input("Ganze Zahl eingeben: "))
+  print(24*'*', 'Versuch Nummer ', zaehler+1,24*'*')
   print(eingabe)
 
   if eingabe < geheimzahl:
@@ -34,7 +35,7 @@ while (eingabe != geheimzahl) and (zaehler < maxversuche):
   if lower == upper:
     eingabe = lower
   else:
-    eingabe = random.randrange(lower,upper)
+    eingabe = ((upper+lower)//2)
 
 if (zaehler != maxversuche):
   print("Richtig! Sie haben" , zaehler, "Versuche benötigt.")
