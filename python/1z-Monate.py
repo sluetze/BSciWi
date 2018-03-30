@@ -44,7 +44,7 @@ else:
     #print(position)
 
 print(24*'*','Aufgabe 3',24*'*')
-monate = ["mai","maerz","april","januar"]
+monate = ["mai","maerz","april","januar"] 
 for monat in monate:
     if monat in q1:
         print("Der Monat", monat, "befindet sich im ersten Quartal")
