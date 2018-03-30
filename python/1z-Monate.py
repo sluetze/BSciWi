@@ -4,6 +4,7 @@ q1 = ['januar','februar','maerz']
 q2 = ['april','mai','juni']
 q3 = ['juli','august','september']
 q4 = ['oktober','november','dezember']
+year = [q1,q2,q3,q4] #zweidimensionale Liste
 
 #A1
 print(24*'*','Aufgabe 1',24*'*')
@@ -59,6 +60,12 @@ for monat in monate:
 print(24*'*','Aufgabe 4',24*'*')
 for x in range(0,3):
     print(q1[x],q2[x],q3[x],q4[x],sep = ",")
+
+# Lösung über zweidimensionale Liste
+for i in range(0,3):
+    for j in range(0,4):
+        print(year[j][i],",", sep = "", end = '')
+    print("")
 
 print(24*'*','Aufgabe 5',24*'*')
 x = [1,3,2,12,8]
