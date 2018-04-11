@@ -1,4 +1,5 @@
 
+# Aufgabe 9 ff
 while True:
     year = int(input("Bitte geben Sie ein Geburtsjahr ein, dass zwischen 1582 und 2015 liegt"))
     if year == 0:
@@ -10,5 +11,6 @@ while True:
         print("Außerhalb des erlaubten bereichs")
     break
 
+    # Aufgabe 12
 if year%4 == 0 and not year%100 == 0 or year%400 == 0:
     print("Dies ist ein Schaltjahr!")

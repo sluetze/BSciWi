@@ -26,8 +26,6 @@ else:
         print("Der Monat befindet sich im dritten Quartal")
     elif position <= 12:
         print("Der Monat befindet sich im vierten Quartal")
-    else:
-        print("Fehlerhafte eingabe")
 
 #A2
     print(24*'*','Aufgabe 2',24*'*')
@@ -39,12 +37,9 @@ else:
         print("Der Monat beindet sich im dritten Quartal")
     elif month in q4:
         print("Der Monat beindet sich im vierten Quartal")
-    else:
-        print("Fehlerhafte eingabe")
-    #print(position)
 
 print(24*'*','Aufgabe 3',24*'*')
-monate = ["mai","maerz","april","januar"] 
+monate = ["mai","maerz","april","januar"]
 for monat in monate:
     if monat in q1:
         print("Der Monat", monat, "befindet sich im ersten Quartal")
