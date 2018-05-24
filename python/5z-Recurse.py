@@ -13,11 +13,10 @@ ausgabe(x)
 
 
 def rec_ausgabe(wert):
-    print(wert[:1])
-    if len(wert) > 1:
-        print(rec_ausgabe(wert[1:]))
-    else:
-        print(wert[:1])
+    first, *rest = wert
+    print(first)
+    if len(rest) > 1:
+        rec_ausgabe(rest)
 
 rec_ausgabe(x)
 
